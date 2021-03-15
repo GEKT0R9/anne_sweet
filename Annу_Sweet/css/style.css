@@ -1,0 +1,495 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #2E2F22;
+}
+
+header {
+    width: 100%;
+    height: 581px;
+    background: url(../img/headerHome.png) no-repeat center;
+    background-size: cover;
+}
+
+.logo {
+    padding: 4px 120px;
+    display: inline;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul {
+    margin: 33px 38px;
+}
+
+.nav ul li {
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin-right: 83px;
+}
+
+.article {
+    width: 1200px;
+    height: max-content;
+    margin: 83px auto;
+}
+
+.head h2 {
+    display: inline;
+}
+
+.filt {
+    float: right;
+    padding: 12px 20px;
+    width: 203px;
+    height: 46px;
+    background: #D7D1C9;
+    border-radius: 10px;
+}
+
+.filt p {
+    width: max-content;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.triangle {
+    margin-top: -16px;
+    width: 22px;
+    height: 20px;
+    float: right;
+    border: 15px solid transparent;
+    border-top: 15px solid rgb(181, 181, 181);
+}
+
+.articles_1 {
+    margin-bottom: 204px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    margin-top: 60px;
+    width: 402px;
+    height: 268px;
+}
+
+.card h2 {
+    margin-top: 27px;
+    margin-bottom: 7px;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.card p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.inf {
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.date {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.articles_2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 23px;
+    margin-bottom: 20px;
+}
+
+#ninja, #ninja1 {
+    display: none;
+}
+
+.cards {
+    width: 590px;
+    height: 552px;
+    color: #fff;
+    padding: 359px 82px 0px;
+}
+
+.cards .inf {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cards h1 {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+.cards p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.flowers {
+    background: url(../img/flowers.png)no-repeat center center;
+}
+
+.cake {
+    background: url(../img/cake.png)no-repeat center center;
+}
+
+.more {
+    width: max-content;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 12px 58px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 104px auto;
+    cursor: pointer;
+}
+
+.about {
+    width: 1180px;
+    height: 797px;
+    margin: 0 auto;
+}
+
+.about h1 {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    margin: 0 auto;
+    width: max-content;
+    margin-bottom: 49px;
+}
+
+.aboutContent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.disc {
+    margin: 30px 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.infor {
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    border-left: 3px solid black;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-top: 71px;
+}
+
+.portfolio {
+    margin: 85px auto;
+    width: 1200px;
+}
+
+.portfolio h1 {
+    text-align: center;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    margin-bottom: 49px;
+}
+
+.grid_photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 387px;
+    height: 525px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.photo>h2 {
+    padding: 140px 0 44px;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.photo>h3 {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 17px;
+}
+
+.photo>p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.one_photo {
+    background: url(../img/partfolio_1.png);
+}
+
+.two_photo {
+    background: url(../img/partfolio_2.png);
+    color: #fff;
+}
+
+.three_photo {
+    background: url(../img/partfolio_3.png);
+}
+
+.write_me {
+    margin: 0 auto;
+    width: 996px;
+    height: 741px;
+}
+
+.write_me>h1 {
+    text-align: center;
+    margin-bottom: 49px;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+}
+
+.form {
+    padding: 53px 83px;
+    width: 996px;
+    height: 637px;
+    background: url(../img/write_me.png) no-repeat center center;
+    background-size: cover;
+}
+
+.form>p {
+    font-family: Spectral SC;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.col_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form input {
+    opacity: .5;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.mes {
+    margin: 20px 0;
+}
+
+.mini {
+    width: 407px;
+    height: 63px;
+}
+
+.max {
+    width: 825px;
+    height: 293px;
+    padding-top: 0;
+}
+
+.names {
+    margin-bottom: 12px;
+}
+
+.enter {
+    margin: 20px auto;
+    /* margin-top: 20px; */
+    width: max-content;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 12px 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 81px;
+    width: 100%;
+    height: 181px;
+    background: #D7D1C9;
+}
+
+footer>nav>ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer>nav>ul>li {
+    padding: 65px 60px;
+}
+
+.hovers:hover {
+    transition: background .1s linear;
+    background: #000;
+    color: #fff;
+}
+
+@media (max-width:1200px) {
+    .logo {
+        margin-left: 25px;
+        padding: 5px 25px;
+    }
+    .nav ul {
+        margin: 25px 20px;
+    }
+    .nav ul li {
+        margin-right: 50px;
+    }
+    .nav ul li a {
+        font-size: 16px;
+    }
+    .article {
+        width: 100%;
+        height: max-content;
+        margin: 25px auto;
+    }
+    .articles_1 {
+        /* grid-template-columns: repeat(2, 1fr); */
+        margin-bottom: 60px;
+    }
+    .card {
+        margin-bottom: 60px;
+    }
+    .more {
+        margin: 25px auto;
+    }
+}
+
+@media (max-width:768px) {
+    .logo {
+        display: none;
+    }
+    .nav {
+        margin: 30px auto;
+        float: left;
+    }
+    .nav ul {
+        margin: 25px 70px;
+    }
+    .nav ul li {
+        margin-right: 70px;
+    }
+    .articles_1 {
+        grid-template-columns: 0;
+        margin: 0px 22% 60px;
+    }
+    .articles_2 {
+        grid-template-columns: 0;
+    }
+    .cards {
+        margin: 0 72px;
+    }
+    .about {
+        width: 100%;
+        height: max-content;
+    }
+    .aboutContent {
+        grid-template-columns: 1fr 2fr;
+    }
+    .aboutContent {
+        font-size: 12px;
+    }
+    .aboutContent img {
+        width: 100%;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .portfolio {
+        width: 100%;
+        height: max-content;
+    }
+    .grid_photo {
+        grid-template-columns: 1fr;
+    }
+    .photo {
+        margin: 0 auto;
+    }
+    .write_me {
+        width: 100%;
+        height: max-content;
+    }
+    .form {
+        width: 99%;
+        height: max-content;
+    }
+    .mini {
+        width: 292px;
+    }
+    .max {
+        width: 587px;
+    }
+}
